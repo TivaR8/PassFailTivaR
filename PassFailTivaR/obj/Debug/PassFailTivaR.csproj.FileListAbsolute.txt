@@ -1,0 +1,10 @@
+C:\Users\Tiva Rait\Desktop\School work\Programming\Grade 11\Unit 5\PassFailTivaR\PassFailTivaR\bin\Debug\PassFailTivaR.exe.config
+C:\Users\Tiva Rait\Desktop\School work\Programming\Grade 11\Unit 5\PassFailTivaR\PassFailTivaR\bin\Debug\PassFailTivaR.exe
+C:\Users\Tiva Rait\Desktop\School work\Programming\Grade 11\Unit 5\PassFailTivaR\PassFailTivaR\bin\Debug\PassFailTivaR.pdb
+C:\Users\Tiva Rait\Desktop\School work\Programming\Grade 11\Unit 5\PassFailTivaR\PassFailTivaR\obj\Debug\PassFailTivaR.csprojResolveAssemblyReference.cache
+C:\Users\Tiva Rait\Desktop\School work\Programming\Grade 11\Unit 5\PassFailTivaR\PassFailTivaR\obj\Debug\PassFailTivaR.frmPassFail.resources
+C:\Users\Tiva Rait\Desktop\School work\Programming\Grade 11\Unit 5\PassFailTivaR\PassFailTivaR\obj\Debug\PassFailTivaR.Properties.Resources.resources
+C:\Users\Tiva Rait\Desktop\School work\Programming\Grade 11\Unit 5\PassFailTivaR\PassFailTivaR\obj\Debug\PassFailTivaR.csproj.GenerateResource.cache
+C:\Users\Tiva Rait\Desktop\School work\Programming\Grade 11\Unit 5\PassFailTivaR\PassFailTivaR\obj\Debug\PassFailTivaR.csproj.CoreCompileInputs.cache
+C:\Users\Tiva Rait\Desktop\School work\Programming\Grade 11\Unit 5\PassFailTivaR\PassFailTivaR\obj\Debug\PassFailTivaR.exe
+C:\Users\Tiva Rait\Desktop\School work\Programming\Grade 11\Unit 5\PassFailTivaR\PassFailTivaR\obj\Debug\PassFailTivaR.pdb
