@@ -17,12 +17,16 @@ namespace PassFailTivaR
         string outputFile = "DATA10_Output.txt";
 
         // Declare local variables
-        float weightTests, weightAssign, weightProjects, weightQuizzes;
-        float markTests, markAssign, markProjects, markQuizzes;
+        float weightTests, weightAssign, weightProjects, weightQuizzes = 0;
+        float markTests, markAssign, markProjects, markQuizzes = 0;
         int numStudents;
+        String numStudentsAsString;
         float average;
         int numPassed = 0;
-        int counterA, counterB;
+        int counterA = 0;
+        int counterB = 0;
+        string line;
+        
 
         public frmPassFail()
         {
@@ -39,16 +43,26 @@ namespace PassFailTivaR
             using (System.IO.StreamWriter file = new System.IO.StreamWriter(outputFile))
             {
                 // Loop through each line of the array
-                for (counterA = 0; counterA < lines.Length; counterA++)
-                {
+                //for (counterA = 0; counterA < lines.Length; counterA++)
+                //{
                     // Initialize number of students who got >= 50%
                     numPassed = 0;
 
                     // Read the first line for the next set of students
-                    string line = lines[counterA];
+                    line = lines[counterA];
+
+                    Console.WriteLine("*** line = " + line);
+            
 
                     // Split each weight by the space delimeter
                     string[] weights = line.Split(' ');
+                    Console.WriteLine("*** weights[0] = " + weights[0]);
+                    Console.WriteLine("*** weights[1] = " + weights[1]);
+                    Console.WriteLine("*** weights[2] = " + weights[2]);
+                    Console.WriteLine("*** weights[3] = " + weights[3]);
+
+
+
 
                     // Get the weight for the tests, assignments, projects and quizzes
                     weightTests = float.Parse(weights[0]);
@@ -57,18 +71,30 @@ namespace PassFailTivaR
                     weightQuizzes = float.Parse(weights[3]);
 
                     // For testing purposes only, write the weights to the output file
-                    file.WriteLine("Weights " + weightTests + " " + weightAssign + " " + weightProjects + " " + weightQuizzes);
+                    Console.WriteLine("Weights " + weightTests + " " + weightAssign + " " + weightProjects + " " + weightQuizzes);
 
                     // Get num Students from the lines array. (It will be at the following index)
                     /////// I'm not sure if this code is correct
-                    numStudents = line[counterB];
+                    //numStudents = int.Parse(line[counterA + 1]);
+                    // Then Output it to the output file for testing
+                    Console.WriteLine("line[counterB]: " + line[counterB]);
+
+                    numStudents = int.Parse(lines[counterA + 1]);
 
                     // Then Output it to the output file for testing
-                    file.WriteLine("Number of students" + numStudents);
+                    Console.WriteLine("Number of students" + numStudents);
+
+
+                
 
                     // Loop through each student
                     for (counterB = counterA + 2; counterB < counterA + 2 + numStudents; counterB++)
                     {
+                        // Read the first line for the next set of students
+                        line = lines[counterB];
+
+                    Console.WriteLine("***lines[counterB] = " + lines[counterB]);
+
                         // Split each student's marks into an array of strings called studentMarks[]
                         string[] studentMarks = line.Split(weights, StringSplitOptions.RemoveEmptyEntries);
 
@@ -94,12 +120,14 @@ namespace PassFailTivaR
                     }
 
                     // For testing purposes, write the number ofstudents who passed to the output file
-                    file.WriteLine("numPassed" + numPassed);
+                    Console.WriteLine("numPassed" + numPassed);
 
                     // reset the initial counter to start at the next batch of students
                     counterA = counterB - 1;
 
-                }
+                //}
+
+    
             }
 
         }
