@@ -61,18 +61,43 @@ namespace PassFailTivaR
 
                     // Get num Students from the lines array. (It will be at the following index)
                     /////// I'm not sure if this code is correct
-                    int numStudents = line[counterB];
+                    numStudents = line[counterB];
 
                     // Then Output it to the output file for testing
                     file.WriteLine("Number of students" + numStudents);
 
-                   /* // Loop through each student
+                    // Loop through each student
                     for (counterB = counterA + 2; counterB < counterA + 2 + numStudents; counterB++)
                     {
                         // Split each student's marks into an array of strings called studentMarks[]
+                        string[] studentMarks = line.Split(weights, StringSplitOptions.RemoveEmptyEntries);
 
+                        markTests = float.Parse(studentMarks[0]);
+                        markAssign = float.Parse(studentMarks[1]);
+                        markProjects = float.Parse(studentMarks[2]);
+                        markQuizzes = float.Parse(studentMarks[3]);
+
+                        // For testing purposes only write the student's average to the output file
+                        file.WriteLine("studentMarks " + markTests + " " + markAssign + " " + markProjects + " " + markQuizzes);
+
+                        // Calculate the average for the student
+                        average = ((weightTests * (markTests / 100)) + (weightAssign * (markAssign / 100)) + (weightProjects * (markProjects / 100)) + (weightQuizzes * (markQuizzes / 100)));
+
+                        // For testing purposes only, write it to the output file
+                        file.WriteLine("average " + average);
+
+                        // If average is over 50, increment the number of students who passed
+                        if (average >= 50)
+                        {
+                            numPassed = numPassed + 1;
+                        }
                     }
-                    */
+
+                    // For testing purposes, write the number ofstudents who passed to the output file
+                    file.WriteLine("numPassed" + numPassed);
+
+                    // reset the initial counter to start at the next batch of students
+                    counterA = counterB - 1;
 
                 }
             }

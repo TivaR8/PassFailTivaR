@@ -8,3 +8,12 @@ C:\Users\Tiva Rait\Desktop\School work\Programming\Grade 11\Unit 5\PassFailTivaR
 C:\Users\Tiva Rait\Desktop\School work\Programming\Grade 11\Unit 5\PassFailTivaR\PassFailTivaR\obj\Debug\PassFailTivaR.csproj.CoreCompileInputs.cache
 C:\Users\Tiva Rait\Desktop\School work\Programming\Grade 11\Unit 5\PassFailTivaR\PassFailTivaR\obj\Debug\PassFailTivaR.exe
 C:\Users\Tiva Rait\Desktop\School work\Programming\Grade 11\Unit 5\PassFailTivaR\PassFailTivaR\obj\Debug\PassFailTivaR.pdb
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Rait, Tiva (s230816)\Unit 5 (Arrays & Lists)\PassFailTivaR\PassFailTivaR\bin\Debug\PassFailTivaR.exe.config
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Rait, Tiva (s230816)\Unit 5 (Arrays & Lists)\PassFailTivaR\PassFailTivaR\bin\Debug\PassFailTivaR.exe
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Rait, Tiva (s230816)\Unit 5 (Arrays & Lists)\PassFailTivaR\PassFailTivaR\bin\Debug\PassFailTivaR.pdb
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Rait, Tiva (s230816)\Unit 5 (Arrays & Lists)\PassFailTivaR\PassFailTivaR\obj\Debug\PassFailTivaR.csprojResolveAssemblyReference.cache
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Rait, Tiva (s230816)\Unit 5 (Arrays & Lists)\PassFailTivaR\PassFailTivaR\obj\Debug\PassFailTivaR.frmPassFail.resources
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Rait, Tiva (s230816)\Unit 5 (Arrays & Lists)\PassFailTivaR\PassFailTivaR\obj\Debug\PassFailTivaR.Properties.Resources.resources
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Rait, Tiva (s230816)\Unit 5 (Arrays & Lists)\PassFailTivaR\PassFailTivaR\obj\Debug\PassFailTivaR.csproj.GenerateResource.Cache
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Rait, Tiva (s230816)\Unit 5 (Arrays & Lists)\PassFailTivaR\PassFailTivaR\obj\Debug\PassFailTivaR.exe
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Rait, Tiva (s230816)\Unit 5 (Arrays & Lists)\PassFailTivaR\PassFailTivaR\obj\Debug\PassFailTivaR.pdb
